@@ -1,0 +1,20 @@
+@media print{
+
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    bady{
+        background-image: url(../imagem/back-tablet.jpg);
+    }
+}
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    bady{
+        background-image: url(../imagem/back-pc.jpg);
+    }
+    
+}
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url(../imagem/back-tv.jpg);
+    }    
+}
